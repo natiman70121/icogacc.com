@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtfnSlnCliMW5h09CnhXKCUIs2JQjgkUODXg&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page1{
+margin-top: 150px;
+margin-left: 50px;
+width: 300px;
+height: 250px;
+background-image: url(download.jfif);
+background-repeat: no-repeat;
+background-size: cover;
+box-shadow: 3px 3px 5px;
+overflow: auto;
+}
+.page2{
+    margin-top: -200px;
+    margin-left: 38%;
+    width: 300px;
+    background-image: url(download.jfif);
+background-repeat: no-repeat;
+background-size: cover;
+    height: 250px;
+    background-color: azure;
+    box-shadow: 3px 3px 5px;
+}
+.page3{
+    margin-top: -200px;
+    margin-left: 70%;
+    width: 300px;
+    height: 250px;
+    background-image: url(download.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: azure;
+    box-shadow: 3px 3px 5px;
+
+}
+p{
+    padding-top: 30px;
+    color:rgb(114, 219, 72);
+    font-weight: bold;
+}
+h2{
+    padding-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.page1:hover,.page2:hover,.page3:hover{
+color: brown;
+}
+button{
+    background-color: transparent;
+    text-decoration: none;
+    border: none;
+    color: rgb(206, 240, 9);
+    cursor: pointer;
+    font-size: larger;
+
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+ul{
+    float: right;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+ul li{
+    list-style-type: none;
+    margin-left: 40px;
+    margin-top: 27px;
+    font-size: 14px;
+    color: black;
+}
+ul li a{
+    text-decoration: black;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+ul li a:hover{
+    background-color: rgb(5, 2, 36);
+    color: white;
+    font-size: 20px;
+}
+.logo{
+    position: fixed;
+    height: 200px;
+    width: 300px;
+} 
+h1{
+    color: #f4f4f4;
+    text-align: center;
+}
